@@ -1,12 +1,12 @@
-export default function ArtistCard({ id, name, genre, bio, albums })  {
+export default function ArtistCard({ props })  {
   return (
-    <div className="card" id = {id}>
-      <h2>{name}</h2>
-      <h3>{genre}</h3>
-      <p>{bio}</p>
+    <div className="card" id = {props.artists.id}>
+      <h2>{props.artists.name}</h2>
+      <h3>{props.artists.genre}</h3>
+      <p>{props.artists.bio}</p>
       <ui>
-        <li>{albums[0].title}, {albums[0].year}</li>
-        <li>{albums[1].title}, {albums[1].year}</li>
+        <li>{props.artists.albums[0].title}, {props.artists.albums[0].year}</li>
+        <li>{props.artists.albums[1].title}, {props.artists.albums[1].year}</li>
       </ui>
     </div>
   );
