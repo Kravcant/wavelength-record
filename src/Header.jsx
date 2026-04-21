@@ -4,8 +4,8 @@ export default function Header() {
     return (
         <>
             <h1>{data.label}</h1>
-            <p>Founded: {data.founded}</p>
-            <p>City: {data.founded}</p>
+            <h2><i>"{data.tagline}"</i></h2>
+            <p>Founded in {data.founded} at {data.city}</p>
         </>
     )
 }
