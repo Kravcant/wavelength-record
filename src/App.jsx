@@ -5,7 +5,7 @@ import ArtistCard from './ArtistCard'
 import './App.css'
 
 function App() {
-  const entryElements = data.map((entry) => {
+  const entryElements = data.artists.map((entry) => {
     return (
       <ArtistCard
         key={entry.id}
