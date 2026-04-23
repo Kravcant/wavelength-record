@@ -1,3 +1,5 @@
+import './ArtistCard.css'
+
 export default function ArtistCard(props)  {
   return (
     <div className="card" id = {props.id}>

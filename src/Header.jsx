@@ -1,4 +1,5 @@
 import data from './data.json'
+import './Header.css'
 
 export default function Header() {
     return (
