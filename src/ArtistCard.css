@@ -2,11 +2,15 @@
     background-image: linear-gradient(135deg, antiquewhite, white);
     border: 2px solid white;
     border-radius: 15px;
+    box-shadow: 10px 10px 20px black;
+    color:rgb(236, 199, 129);
+    text-shadow: 1px 1px 1px black;
     padding: 10px;
     margin: 15px;
 }
 
 .card h2 {
+    color:darksalmon;
     text-decoration: underline;
 }
 
